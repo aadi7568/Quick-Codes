@@ -31,7 +31,7 @@ def compose(text,model=""):
     model = "INCOHERENT"
 
   
-  API_KEY='AIzaSyDvSlBOwdeZyTuYEyyuIykdc3DRNBnIeQ4'
+  API_KEY='YOUR_KEY'
 
   service = discovery.build('commentanalyzer', 'v1alpha1', developerKey=API_KEY)
 
